@@ -1,0 +1,23 @@
+
+
+.un-order-list-items{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.all-products-container{
+    margin-left: 36px;
+
+}
+
+
+
+@media screen and (min-width:768px){
+
+    .all-products-container{
+            margin-left: 48px;
+    }
+}

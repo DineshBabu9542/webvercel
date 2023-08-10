@@ -1,0 +1,64 @@
+
+
+.image-urls{
+    width: 280px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.title-ele{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.brand-name{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color:  #ff1a1a;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color:   #ff0066;
+}
+
+.list-items-product-item-container{
+    margin-right: 14px;
+    margin-bottom: 24px;
+    box-shadow: 10px 0px  10px 0px lightblue;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.star-img{
+    background-color: blue;
+    margin-top: 16px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color:white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.price-rating-container{
+    display:flex;
+   
+}
+.star-img-container{
+    
+    margin-left: 12px;
+}
+
+.rating{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto";
+    
+}

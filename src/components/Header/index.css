@@ -1,0 +1,124 @@
+
+.nav-container{
+    display: flex;
+    margin-top: 38px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.un-order-list{
+
+    list-style-type: none;
+    padding-left:0px;
+    display: flex;
+
+}
+.login-link{
+    text-decoration: none;
+}
+
+.shopping-items-container{
+   display: flex;
+   margin-left: auto;
+    
+}
+
+
+.list-items{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-right:12px;
+} 
+
+
+.shopping-items-container{
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-left: auto;
+}
+
+
+.btn-container{
+    display: none;
+}
+
+.logout-icon{
+    width: 23px;
+    
+}
+
+.shopping-name-image{
+    width: 150px;
+
+    margin-left: 12px;
+    margin-right: 10px;
+    
+}
+
+.btn-icon-img{
+
+        font-family: "Roboto";
+        background-color: blue;
+        font-weight: 500;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        background-color:#ffffff;
+        
+}
+
+.log-out-img-btn{
+    margin-top: 14px;
+}
+
+@media screen and (min-width:992px){
+
+   .list-items{
+    font-size: 20px;
+  
+   } 
+
+   
+    .btn-container{
+       display: block;
+        margin-top: 16px;
+        margin-left: 14px;
+    }
+    
+
+    .shopping-name-image{
+        width: 190px;
+        margin-left: 60px;
+    }
+
+    .nav-container{
+        width:90%;
+    }
+    .logout-btn{
+        font-size: 14px;
+        font-family: "Roboto";
+        background-color: blue;
+        font-weight: 500;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        color:#ffffff;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+
+    .shopping-items-container{
+        padding-top: 12px;
+    }
+
+    .log-out-img-btn{
+        display: none;
+    }
+}

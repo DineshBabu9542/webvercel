@@ -1,0 +1,147 @@
+
+
+.login-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.shopping-heading{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+.shopping-name-img{
+    width:200px;
+}
+
+.error-msg{
+    color:#ff3333;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-left: 0px;
+   
+}
+
+
+
+.shopping-content-img{
+    width: 220px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.form-container{
+    
+}
+
+.userNameContainer{
+    margin-bottom: 16px;
+}
+.input-text-conatiner{
+    
+}
+
+.input-name-label{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input-name{
+    width: 220px;
+    margin-top: 7px;
+    padding: 3px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
+
+.input-password-label{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.input-password-class{
+
+    width: 220px;
+    margin-top: 7px;
+    padding: 3px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+
+.form-btn{
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 600;
+    background-color:  #1a1aff;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+   .error-msg{
+    font-size: 17px;
+    padding-left: 90px;
+   }
+
+    .shopping-heading{
+        font-size: 28px;
+    }
+
+    .log-image-and-form-container{
+        display: flex;
+        
+    }
+    .shopping-content-img{
+        width: 330px;
+    }
+    .form-container{
+        margin-left: 90px;
+        margin-top: 46px;
+    }
+    .shopping-name-img{
+        width: 320px;
+        margin-bottom: 24px;
+    }
+    .input-name-label{
+        font-size: 18px;
+    }
+    .input-name{
+        width: 270px;
+    }
+    .input-password-label{
+        font-size: 18px;
+    }
+    .input-password-class{
+        width: 270px;
+    }
+}
+
